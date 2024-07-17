@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "executing-spark-on-dataproc"
+version = "0.1.0"
+description = ""
+authors = ["Marcus Vinicius Monteiro de Souza <marcusmonteirodesouza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyspark = "^3.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
